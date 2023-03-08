@@ -1,5 +1,6 @@
 body {
     background-color: #e3e3e3;
+    cursor: url("images/cursor.png"), default;
   }
 
 h1 {
