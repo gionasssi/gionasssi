@@ -4,7 +4,7 @@ body {
 
 h1 {
     font-family: sans-serif;
-    font-size: 64px;
+    font-size: 50px;
     font-weight: 500;
     line-height: 1;
     color: #1c1c1c;
@@ -14,6 +14,7 @@ h1 {
 
   .container{
     display: flex;
+    overflow: auto;
     
   }
   
@@ -29,4 +30,27 @@ h1 {
     height: 100vh;
     overflow: scroll;
     line-height: 300px;
+  }
+
+  a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(38, 0, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
   }
